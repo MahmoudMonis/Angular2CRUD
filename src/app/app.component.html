@@ -1,0 +1,45 @@
+<form action="/search" method="get">
+    <input type="text" placeholder="Search..." name="q">
+    <button type="submit">Search</button>
+  </form>
+  
+  <header >
+  
+
+    <h1><button data-text="Awesome" class="button">
+      <span class="actual-text">&nbsp;Welcome to Mr.Tech&nbsp;</span>
+      <span class="hover-text" aria-hidden="true">&nbsp;Welcome&nbsp;</span>
+  </button></h1>
+  
+  
+  </header>
+  <main>
+    <section>
+        <ul class="list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </section>
+      <section>
+      <h2>Operation</h2>   
+     </section>
+
+     <router-outlet></router-outlet>
+     <app-create></app-create>
+     <app-update></app-update>
+     <app-delete></app-delete>
+  
+  </main>
+  <footer>
+    <div class="card">
+           <p>&copy; 2023 Mr Tech . All rights reserved.</p>
+    </div>
+   
+  </footer>
+
+
+<app-header></app-header>
+<app-menu></app-menu>
+
+<app-footer></app-footer>

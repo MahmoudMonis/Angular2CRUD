@@ -1,0 +1,33 @@
+#deleteConfirmation {
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  #deleteButton {
+    background-color: #dc3545;
+  }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  
+  input[type="text"] {
+    padding: 10px;
+    margin-right: 10px;
+    flex: 1;
+    width: 700px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
